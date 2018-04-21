@@ -24,6 +24,6 @@
     "indent": ["error", 2, {"SwitchCase": 1, "MemberExpression": 1}],
     "no-multi-spaces": ["error"],
     "linebreak-style": [ "error", "unix" ],
-    "no-unused-vars": "warn"
+    "no-unused-vars": ["warn"]
   }
 }
