@@ -15,15 +15,20 @@
     "strict": "warn",
     "comma-dangle": ["error", "never"],
     "object-curly-spacing": ["error", "always"],
-    "quotes": ["error", "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ],
     "consistent-this": ["error", "self"],
     "max-len": ["error", 120],
-    "camelcase": ["error", {"properties": "never"}],
+    "camelcase": ["error", { "properties": "never" }],
     "no-unused-expressions": "off",
     "one-var": ["error", "never"],
-    "indent": ["error", 2, {"SwitchCase": 1, "MemberExpression": 1}],
+    "indent": ["error", 2, { "SwitchCase": 1, "MemberExpression": 1 }],
     "no-multi-spaces": ["error"],
     "linebreak-style": [ "error", "unix" ],
-    "no-unused-vars": ["warn"]
+    "no-unused-vars": ["warn"],
+    "operator-linebreak": [2, "before"]
   }
 }
