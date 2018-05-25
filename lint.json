@@ -29,6 +29,6 @@
     "no-multi-spaces": ["error"],
     "linebreak-style": ["error", "unix"],
     "operator-linebreak": [2, "before"],
-    "mocha-no-only/mocha-no-only": ["error"]
+    "mocha-no-only/mocha-no-only": ["warn"]
   }
 }
