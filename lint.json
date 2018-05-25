@@ -4,7 +4,10 @@
     "es6": true,
     "mocha": true
   },
-  "extends": "loopback",
+  "extends": [
+    "loopback",
+    "eslint:recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 8
   },
@@ -28,6 +31,7 @@
     "indent": ["error", 2, { "SwitchCase": 1, "MemberExpression": 1 }],
     "no-multi-spaces": ["error"],
     "linebreak-style": ["error", "unix"],
+    "no-unused-vars": ["warn"],
     "operator-linebreak": [2, "before"],
     "mocha-no-only/mocha-no-only": ["warn"]
   }
