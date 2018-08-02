@@ -28,7 +28,7 @@
     "no-unused-expressions": "off",
     "no-unused-vars": [
       "warn"
-    ]
+    ],
     "one-var": ["error", "never"],
     "indent": ["error", 2, { "SwitchCase": 1, "MemberExpression": 1 }],
     "no-multi-spaces": ["error"],
