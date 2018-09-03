@@ -35,6 +35,7 @@
     "linebreak-style": ["error", "unix"],
     "no-unused-vars": ["warn"],
     "operator-linebreak": [2, "before"],
-    "mocha-no-only/mocha-no-only": ["warn"]
+    "mocha-no-only/mocha-no-only": ["warn"],
+    "no-return-await": ["warn"]
   }
 }
