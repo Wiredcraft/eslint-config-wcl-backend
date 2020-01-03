@@ -11,14 +11,17 @@
     "loopback",
     "wcl"
   ],
-  "author": "xavierchow",
+  "author": {
+    "name": "Wiredcraft",
+    "url": "https://wiredcraft.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Wiredcraft/eslint-config-wcl-backend"
   },
   "dependencies": {
-    "eslint-config-loopback": "^8.0.0",
+    "eslint-config-loopback": "^10.0.0",
     "eslint-plugin-mocha-no-only": "0.0.6"
   }
 }

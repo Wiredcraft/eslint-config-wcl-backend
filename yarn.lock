@@ -2,6 +2,28 @@
 # yarn lockfile v1
 
 
-eslint-config-loopback@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-loopback/-/eslint-config-loopback-8.0.0.tgz#f142bca47122994a1a85f19cc2163511616b4152"
+eslint-config-loopback@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-loopback/-/eslint-config-loopback-10.0.0.tgz#1362f3e5efc8e2c58761b40ddec280398bafe74f"
+  dependencies:
+    eslint-plugin-mocha "^4.11.0"
+
+eslint-plugin-mocha-no-only@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mocha-no-only/-/eslint-plugin-mocha-no-only-0.0.6.tgz#d801bf4476cba30ea4bd1b6e2a46cdabf273552f"
+  dependencies:
+    requireindex "~1.1.0"
+
+eslint-plugin-mocha@^4.11.0:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mocha/-/eslint-plugin-mocha-4.12.1.tgz#dbacc543b178b4536ec5b19d7f8e8864d85404bf"
+  dependencies:
+    ramda "^0.25.0"
+
+ramda@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
+
+requireindex@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
